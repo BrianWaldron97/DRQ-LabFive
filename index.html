@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <h1>Welcome to my web site!</h1>
+
+        <!-- Form -->
+        <!-- when submit is clicked, url changes to /name -->
+        <form action="/name" target="_blank" method="GET">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Brian">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Waldron">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+
+        <h3>POST Method on our form</h3>
+
+        <!-- Changed GET method to POST method -->
+        <form action="/name" target="_blank" method="POST">
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Brian">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Waldron">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+    </body>
+</html>
